@@ -40,10 +40,10 @@ const About = () => {
 				className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 			>
 				I&rsquo;m a fullstack web developer with a knack for building responsive
-				UI using React and Node.js. In particular, I enjoy building apps in
-				NextJS, TailwindCSS, NestJS, and TypeScript. I also have experience in
-				building APIs using MongoDB and PostgreSQL, as well as mobile apps in
-				React Native. Let&rsquo;s bring life to your ideas!
+				UI using React and Node.js. In particular, I enjoy building web apps in
+				NextJS, TailwindCSS, and TypeScript. I also have experience in building
+				REST APIs using NestJS, MongoDB and PostgreSQL, as well as mobile apps
+				in React Native. Let&rsquo;s bring life to your ideas!
 			</motion.p>
 
 			<div className='mt-20 flex flex-wrap gap-10'>
