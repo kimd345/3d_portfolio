@@ -25,7 +25,9 @@ import anchain from './company/anchain.png'
 import refractlabs from './company/refractlabs.png'
 import coachendo from './company/coachendo.png'
 
-import shibal from './shibal.gif'
+import shibal1 from './shibal1.gif'
+import shibal2 from './shibal2.gif'
+import shibal3 from './shibal3.gif'
 
 export {
 	logo,
@@ -52,5 +54,7 @@ export {
 	anchain,
 	refractlabs,
 	coachendo,
-	shibal,
+	shibal1,
+	shibal2,
+	shibal3,
 }

@@ -18,7 +18,9 @@ import {
 	anchain,
 	coachendo,
 	refractlabs,
-	shibal,
+	shibal1,
+	shibal2,
+	shibal3,
 	apolloclient,
 } from '../assets'
 
@@ -197,7 +199,8 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: shibal,
+		platform: 'mobile',
+		image: [shibal1, shibal2, shibal3],
 		source_code_link:
 			'https://github.com/kimd345/shibal#a-mobile-app-for-shiba-inu-owners-to-train-and-bond-with-their-companion',
 	},

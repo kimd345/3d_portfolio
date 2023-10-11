@@ -12,6 +12,7 @@ const ProjectCard = ({
 	name,
 	description,
 	tags,
+	platform,
 	image,
 	source_code_link,
 }) => {
@@ -22,11 +23,19 @@ const ProjectCard = ({
 				className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
 			>
 				<div className='relative w-full h-[230px]'>
-					<img
-						src={image}
-						alt={name}
-						className='w-full h-full object-contain rounded-2xl'
-					/>
+					{platform === 'mobile' ? (
+						<div className='flex h-[98%] gap-1'>
+							{image.map((image, i) => (
+								<img key={i} src={image} alt={name} className='' />
+							))}
+						</div>
+					) : (
+						<img
+							src={image}
+							alt={name}
+							className='w-full h-full object-contain rounded-2xl'
+						/>
+					)}
 
 					<div className='absolute inset-0 justify-end m-3 card-img_hover flex'>
 						<div
