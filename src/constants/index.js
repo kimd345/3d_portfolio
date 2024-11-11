@@ -15,6 +15,8 @@ import {
 	mongodb,
 	git,
 	docker,
+	vest,
+	uniqr,
 	anchain,
 	coachendo,
 	refractlabs,
@@ -115,7 +117,33 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Software Engineer (web3 Frontend)',
+		title: 'Frontend Engineer',
+		company_name: 'Stealth Startup',
+		icon: vest,
+		iconBg: '#000',
+		date: 'August 2024 - October 2024',
+		points: [
+			'Bootstrapped the boilerplate for the new React frontend to facilitate the third revamp of the UI by taking the best parts of the previous app and adding UI/UX improvements such as tanstack-query over fetch, react-hook-form and shadcn over vanilla HTML inputs. The app structure followed better patterns such as colocation to welcome collaborators to the repo',
+			'Fixed websocket disconnection issue that had been unresolved for over a week on the first day of employment',
+			'Implemented Timer feature, a gamification add-on to the exchange that uses websocket and REST APIs to reset the timer globally for all users upon making a trade to incentivize trading activity',
+			'Set up TradingView (financial charting library) and created the order form, which are the core UI components of the app',
+		],
+	},
+	{
+		title: 'Co-Founder & Engineer',
+		company_name: 'UNIQR',
+		icon: uniqr,
+		iconBg: '#fff',
+		date: 'April 2023 - June 2024',
+		points: [
+			'Developed UNIQR, a web application using vanilla JavaScript, HTML and CSS to generate QR codes that resemble user-uploaded images, enhancing user engagement and customization options',
+			'Ensured a seamless and protected login experience for 1000+ active yearly users by integrating Auth0 for secure user authentication',
+			'Enabled 400+ efficient and secure transactions within the application by implementing Stripe for handling payments',
+			'Focused on responsive design and user-friendly interface, resulting in a highly intuitive and visually appealing web app',
+		],
+	},
+	{
+		title: 'Frontend Engineer',
 		company_name: 'AnChain.AI',
 		icon: anchain,
 		iconBg: '#000',
@@ -151,7 +179,7 @@ const experiences = [
 			'Implemented infinite scroll by configuring cache field policies in Apollo Client with merge and read functions',
 		],
 	},
-]
+];
 
 const testimonials = [
 	{

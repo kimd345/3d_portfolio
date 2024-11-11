@@ -21,6 +21,8 @@ import apolloclient from './tech/apolloclient.png'
 import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 
+import vest from './company/vest.jpg'
+import uniqr from './company/uniqr.jpg'
 import anchain from './company/anchain.png'
 import refractlabs from './company/refractlabs.png'
 import coachendo from './company/coachendo.png'
@@ -51,6 +53,8 @@ export {
 	apolloclient,
 	tailwind,
 	typescript,
+	vest,
+	uniqr,
 	anchain,
 	refractlabs,
 	coachendo,

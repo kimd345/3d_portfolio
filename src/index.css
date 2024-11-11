@@ -33,20 +33,20 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+.tiffany-gradient {
+  background: #81D8D0;
+  background: linear-gradient(-90deg, #81D8D0 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #81D8D0 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
-.green-pink-gradient {
+.green-tiffany-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #81D8D0 1.9%, #1a94a9 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #81D8D0 1.9%, #1a94a9 97.5%);
 }
 
 .orange-text-gradient {
