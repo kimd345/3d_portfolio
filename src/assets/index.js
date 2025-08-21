@@ -31,6 +31,8 @@ import shibal1 from './shibal1.gif'
 import shibal2 from './shibal2.gif'
 import shibal3 from './shibal3.gif'
 
+import gpvc from './gpvc.jpg'
+
 export {
 	logo,
 	backend,
@@ -61,4 +63,5 @@ export {
 	shibal1,
 	shibal2,
 	shibal3,
+	gpvc,
 }

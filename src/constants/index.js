@@ -23,8 +23,9 @@ import {
 	shibal1,
 	shibal2,
 	shibal3,
+	gpvc,
 	apolloclient,
-} from '../assets'
+} from '../assets';
 
 export const navLinks = [
 	{
@@ -39,7 +40,7 @@ export const navLinks = [
 		id: 'contact',
 		title: 'Contact',
 	},
-]
+];
 
 const services = [
 	{
@@ -54,7 +55,7 @@ const services = [
 		title: 'React Native Developer',
 		icon: mobile,
 	},
-]
+];
 
 const technologies = [
 	{
@@ -113,7 +114,7 @@ const technologies = [
 		name: 'docker',
 		icon: docker,
 	},
-]
+];
 
 const experiences = [
 	{
@@ -121,7 +122,7 @@ const experiences = [
 		company_name: 'Stealth Startup',
 		icon: vest,
 		iconBg: '#000',
-		date: 'August 2024 - October 2024',
+		date: 'August 2024 - July 2025',
 		points: [
 			'Bootstrapped the boilerplate for the new React frontend to facilitate the third revamp of the UI by taking the best parts of the previous app and adding UI/UX improvements such as tanstack-query over fetch, react-hook-form and shadcn over vanilla HTML inputs. The app structure followed better patterns such as colocation to welcome collaborators to the repo',
 			'Fixed websocket disconnection issue that had been unresolved for over a week on the first day of employment',
@@ -181,6 +182,19 @@ const experiences = [
 	},
 ];
 
+const education = [
+	{
+		school: 'Brown University',
+		location: 'Providence, RI',
+		duration: 'Sep 2012 - May 2016',
+		degree: 'Bachelor of Arts in Economics',
+		gpa: '3.7 / 4.0',
+		details: [
+			// Add any additional details about coursework, honors, activities, etc.
+		],
+	},
+];
+
 const testimonials = [
 	{
 		testimonial:
@@ -206,11 +220,33 @@ const testimonials = [
 		company: '456 Enterprises',
 		image: 'https://randomuser.me/api/portraits/women/6.jpg',
 	},
-]
+];
 
 const projects = [
 	{
-		name: 'shibal',
+		name: 'GPVC',
+		description:
+			'A comprehensive web application designed to streamline business processes and enhance user productivity. Built with modern technologies and best practices to deliver a seamless user experience across all devices.',
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'typescript',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwindcss',
+				color: 'pink-text-gradient',
+			},
+		],
+		platform: 'web',
+		image: [gpvc],
+		source_code_link: 'https://github.com/kimd345/gpvc-website/',
+	},
+	{
+		name: 'shiboh',
 		description:
 			'An Android/iOS cross-platform mobile app built with React Native and Flask maintained in one code base. Shibal offers a one-stop tool for training your shiba inu through detailed modules in the form of online education and socializing with other owners on a social media platform.',
 		tags: [
@@ -232,6 +268,13 @@ const projects = [
 		source_code_link:
 			'https://github.com/kimd345/shibal#a-mobile-app-for-shiba-inu-owners-to-train-and-bond-with-their-companion',
 	},
-]
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export {
+	services,
+	technologies,
+	experiences,
+	education,
+	testimonials,
+	projects,
+};
